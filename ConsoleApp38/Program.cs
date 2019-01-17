@@ -12,8 +12,13 @@ namespace ConsoleApp38
         }
     }
 
+    class Jungle { }
+
     class Feline
     {
+        public void init() {
+            Jungle Home = new Jungle(); }
+
         public void Eat() { Console.WriteLine("I am eating"); }
     }
 
