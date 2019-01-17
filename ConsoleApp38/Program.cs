@@ -9,4 +9,14 @@ namespace ConsoleApp38
             Console.WriteLine("Hello World!");
         }
     }
+
+    class Lion
+    {
+
+    }
+
+    class Tiger
+    {
+
+    }
 }
