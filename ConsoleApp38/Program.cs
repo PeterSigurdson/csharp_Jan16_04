@@ -6,16 +6,23 @@ namespace ConsoleApp38
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var a = new Lion();
+            a.Eat();
+            Console.ReadLine();
         }
     }
 
-    class Lion
+    class Feline
+    {
+        public void Eat() { Console.WriteLine("I am eating"); }
+    }
+
+    class Lion : Feline
     {
 
     }
 
-    class Tiger
+    class Tiger : Feline
     {
 
     }
